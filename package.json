@@ -1,0 +1,31 @@
+{
+  "name": "ensign-api-pre-assessment",
+  "version": "1.0.0",
+  "description": "Take home assignment for Ensign Full Stack developer role",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon node server.js",
+    "test": "jest --verbose --runInBand --forceExit"
+  },
+  "author": "Darren Ho Kong Ern",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-generator": "^4.16.1",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "jest": "^28.0.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
