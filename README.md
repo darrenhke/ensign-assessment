@@ -3,8 +3,8 @@
 **Installation**
 
 1. Ensure node.js is installed by running `node --version`
-2. Unzip *ensign-assessment.zip* folder and open cmd in root directory
-3. Run command `npm install`
+2. Clone repository to folder
+3. Run command `npm install` in cloned folder
 4. Run command `npm run test` to run test suite. Check outcome of test for pass/fail
 5. Run command `npm start` to start the server. Server should start on http://localhost:3001 if port is not in use
 6. Open Postman and import *Ensign - SpaceX.postman_collection.json* to test manually. First 2 test are local rest are to SpaceX
