@@ -90,5 +90,5 @@ Improvements can be made be setting the date input as keys to getting the filter
 ## Test
 
 - Test API return OK(200) and is alive
-- Test if all 7 combinations
+- Test if all 7 date/month/year combinations are valid
 - Test to check if when no satelite launch date found reply: `{"result", "No launches found on 2021-04-18"}`
